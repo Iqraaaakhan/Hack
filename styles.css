@@ -1,0 +1,139 @@
+ /* Style for the custom navbar */
+ .custom-navbar {
+    background: linear-gradient(97.82deg, #0003AA 14.08%, #5B0369 134.44%);
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow */
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  /* Style for the Login button */
+  .nav-link.login-btn {
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #fdfeff; /* Button border color */
+    width: 100px;
+    text-align: center;
+  }
+  
+  .nav-link.login-btn:hover {
+    background-color: #0056b3; /* Hover background color */
+    border-color: #0056b3; /* Hover border color */
+    color: white; /* Hover text color */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  /* Margin between nav items on the right */
+  .navbar-nav.ms-auto > .nav-item:not(:last-child) {
+    margin-right: 15px; /* Adjust as needed */
+  }
+  
+  /* Background gradient for the section */
+  .section-background {
+    background: linear-gradient(97.82deg, #0003AA 14.08%, #5B0369 134.44%);
+    color: #fff;
+    padding: 50px 0; /* Add padding for spacing */
+  }
+  
+  .section-content {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .vertical-text {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    font-size: 20px;
+    font-family: Cairo;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #cfc8c8;
+    padding-right: 10px;
+    transform: rotate(180deg);  
+  margin-right: 100px;  }
+  
+  .section-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h3 {
+    font-size: 42px;
+    margin-left: 80px;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: justify;
+  }
+
+  .form-section {
+    margin-top: 30px;
+  }
+ /* Footer styling */
+.footer {
+background: linear-gradient(97.82deg, #0003AA 14.08%, #5B0369 134.44%);
+color: #fff;
+padding: 50px 0;
+text-align: center;
+}
+
+.footer h5 {
+font-size: 1.2rem;
+margin-bottom: 1rem;
+}
+
+.footer p {
+font-size: 0.95rem;
+}
+
+.footer ul {
+padding: 0;
+list-style: none;
+}
+
+.footer ul li {
+margin-bottom: 10px;
+}
+
+.footer ul li a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+color: #0056b3;
+}
+
+.footer p.copyright {
+font-size: 0.9rem;
+margin-top: 20px;
+}
+/* Button styling */
+.btn-primary {
+background-color: #0056b3; /* Your primary button background color */
+border-color: #0056b3; /* Border color */
+color: #ffffff; /* Text color */
+padding: 10px 20px; /* Padding around text */
+border-radius: 5px; /* Rounded corners */
+transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+
+/* Optional: Hover styles */
+}
+
+.btn-primary:hover {
+background-color: #002080; /* Darker shade for hover */
+border-color: #002080; /* Darker border for hover */
+color: #ffffff; /* Text color on hover */
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Optional: Focus state */
+}
